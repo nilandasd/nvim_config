@@ -53,6 +53,7 @@ return packer.startup(function(use)
   use "NLKNguyen/papercolor-theme"
   use "tomasiser/vim-code-dark"
   use 'navarasu/onedark.nvim'
+  use { 'catppuccin/nvim', as = 'catppuccin' }
 
   -- search
   use {
