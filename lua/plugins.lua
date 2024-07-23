@@ -81,10 +81,6 @@ return packer.startup(function(use)
 
   -- paranthesis matcher
   -- use 'kien/rainbow_parentheses.vim'
-
-  use 'mfussenegger/nvim-dap'
-  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
-
   -- git
   use {
     'lewis6991/gitsigns.nvim',
